@@ -1,0 +1,17 @@
+.img {
+    display: block;
+    width: 100%;
+}
+
+.item {
+    outline: 1px solid yellow;
+    border-radius: 20px;
+    padding: 10px;
+    transition: all 500ms;
+}
+
+.item:hover {
+    transform: translateY(-10px) scale(1.1);
+    box-shadow: 5px 5px 30px 30px rgba(128, 128, 128, 0.353);
+
+}
